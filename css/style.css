@@ -3,40 +3,63 @@
   }
 
 body {
+  background-color: grey;
+  font-family: sans-serif;
+  font-size: 16px;
 
 }
 
 
 .container {
+  padding-top: 5%;
+  margin: 0 auto;
+  width: 25%;
 }
 
 nav {
   background-image: url("../Images/TopHalf.png");
   background-repeat: no-repeat;
   width: 375px;
-  padding: 40px 0 15px 15px;
 }
+
+
+
+
+.bus-list {
+  background-color:;
+
+}
+
+
+
+
 
 
 .content {
+  margin-top: 50%;
+  background-color: white;
   display: inline-block;
-  outline-style: solid;
-  outline-width: thin;
-  background-color: silver;
   width: 100%;
   padding: 5%;
-
+  height: 100%;
 }
 
+
+
+
+
+h1, h2, h3 {
+line-height: 1.25em;
 }
 
-h1 {text-align: center;
+h1 {
+  font-size: 1.15em;
+  font-weight: 550;
 }
 
-h2 {
-
+h3 {
+  font-size: .5em;
+  font-weight: 700;
 }
-
-  }
 
 }
