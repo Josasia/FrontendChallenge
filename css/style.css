@@ -8,30 +8,19 @@ body {
   font-size: 16px
 }
 
-hr {
-  color: #d9d9d9;
-    display: block;
-    margin-top: .4em;
-    margin-bottom: .4em;
-    margin-left: 5%;
-    margin-right: 0%;
-    border-style: solid;
-    border-width: .75px;
-}
-
-
 nav {
-  background-image: url("../Images/FullBG.png");
+  background-image: url("../Images/FullBg.png");
   background-repeat: no-repeat;
+  background-size: cover;
   width: 375px;
 }
 
 .container {
   background-color: white;
+  height: 667px;
+  width: 375px;
   margin-top: 10%;
   margin-left: 25%;
-  height: 667px;
-  width: 374px;
 }
 
 .content {
@@ -40,39 +29,60 @@ nav {
   width: 375px;
 }
 
-h1 {
-  line-height: 1.75em;
-  margin-left: 4%;
-  font-size: 1em;
-  font-weight: 550;
+hr {
+    border-style: solid;
+    border-width: .75px;
+    color: #d9d9d9;
+    display: block;
+    margin-left: 5%;
+    margin-right: 0%;
 }
 
+hr.hr2 {
+    border-style: solid;
+    border-width: .75px;
+    color: #d9d9d9;
+    display: block;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 3%;
+}
+
+h1 {
+  font-size: 1em;
+  font-weight: 550;
+  line-height: 1.75em;
+  margin-left: 7%;
+}
 
 h2 {
-  margin-left: 3%;
   font-size: .85em;
   font-weight: 700;
+  margin-left: 7%;
 }
 
 h3 {
+  font-size: .90em;
   line-height: 1em;
-  margin-left: 5%;
-  font-size: 1em;
+  margin-left: 7%;
 }
 
 h4 {
-  line-height: 1em;
-  margin-left: 4%;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: bolder;
+  line-height: 1em;
+  margin-bottom: 3%;
+  margin-left: 7%;
+
 }
 
 h5 {
+  font-size: .75em;
   line-height: 1.75em;
-  margin-left: 5%;
-  font-size: .85em;
+  margin-left: 7%;
 }
-br {
-  line-height: 185px;
+
+br.brlarge {
+  line-height: 175px;
 }
 }
