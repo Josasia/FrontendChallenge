@@ -4,14 +4,14 @@
 
 body {
   background-color: #888;
-  font-family: Helvetica;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px
 }
 
 nav {
-  background-image: url("../Images/FullBg.png");
+  background-image: url("../Images/TopNav.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 375px;
 }
 
