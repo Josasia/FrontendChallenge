@@ -24,7 +24,7 @@ nav {
   margin-bottom: 10%;
 }
 
-span {
+.topNav{
   font-size: 1.25em;
   background-color: #FF2D55;
   display: inline-block;
