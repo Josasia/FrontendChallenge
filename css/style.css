@@ -25,11 +25,10 @@ nav {
 }
 
 .topNav{
-  font-size: 1.25em;
   background-color: #FF2D55;
   display: inline-block;
   width: 375px;
-  height: 35px;
+  height: 37px;
   padding-top: 6px;
   padding-left: 5%;
   margin-top: 5%;
@@ -37,7 +36,7 @@ nav {
 
 .circle {
   display: inline-block;
-  margin-top: 7%;
+  margin-top: 10%;
   margin-left: 20%;
   height: 55px;
   width: 55px;
@@ -47,7 +46,6 @@ nav {
 
 .circle2 {
   display: inline-block;
-  margin-top: 7%;
   margin-left: 30%;
   height: 55px;
   width: 55px;
@@ -116,4 +114,10 @@ h5 {
   margin-left: 7%;
 }
 
+h6 {
+  font-size: .80em;
+  font-weight: bold;
+  margin-top: 1%;
+  margin-left: 24%;
+}
 }
