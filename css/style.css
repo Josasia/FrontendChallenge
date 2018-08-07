@@ -34,24 +34,22 @@ nav {
   margin-top: 5%;
 }
 
-.circle {
-  display: inline-block;
-  margin-top: 10%;
-  margin-left: 20%;
-  height: 55px;
-  width: 55px;
-  background-color: #ff2d55;
-  border-radius: 50%;
-}
+.fa-location-arrow {
+	&:before {
+		content: "\f124";
+		font-size: 12px;
+		border-radius: 50%;
+		border: 1px solid green;
+		padding: 2px;
+		background-color: green;
+		color: white;
+	}
 
-.circle2 {
-  display: inline-block;
-  margin-left: 30%;
-  height: 55px;
-  width: 55px;
-  background-color: #ff2d55;
-  border-radius: 50%;
-}
+
+
+
+
+
 
 }
 
