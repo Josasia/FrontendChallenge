@@ -16,13 +16,12 @@ nav {
 }
 
 .container {
-  background-color: white;
+  background-color: #fff;
   height: 667px;
   width: 375px;
   margin-top: 10%;
   margin-left: 25%;
   margin-bottom: 10%;
-
 }
 
 .topNav{
@@ -35,36 +34,28 @@ nav {
   margin-top: 5%;
 }
 
-
-
 .fa-location-arrow {
-	 content: "\f124";
-		font-size: 20px;
-		border-radius: 50%;
-		border: 15px solid #ff2d55;
-		background-color: #ff2d55;
-		color: white;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 18%;
+	content: "\f124";
+	font-size: 20px;
+	border-radius: 50%;
+	border: 15px solid #ff2d55;
+  background-color: #ff2d55;
+	color: #fff;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 18%;
 	}
 
-
-  .fa-list {
-  	 content: "\f03a";
-  		font-size: 20px;
-  		border-radius: 50%;
-  		border: 15px solid #ff2d55;
-  		background-color: #ff2d55;
-  		color: white;
-      display: inline-block;
-      margin-left: 30%;
-  	}
-
-}
-}
-
-}
+.fa-list {
+  content: "\f03a";
+  font-size: 20px;
+	border-radius: 50%;
+	border: 15px solid #ff2d55;
+  background-color: #ff2d55;
+  color: #fff;
+  display: inline-block;
+  margin-left: 30%;
+}}
 
 .content {
   display: block;
@@ -73,31 +64,22 @@ nav {
 }
 
 hr {
-    border-style: solid;
-    border-width: .75px;
-    color: #d9d9d9;
-    display: block;
-    margin-left: 5%;
-    margin-right: 1%;
-
+  border-style: solid;
+  border-width: .75px;
+  color: #d9d9d9;
+  display: block;
+  margin-left: 5%;
+  margin-right: 1%;
 }
-
 
 hr.hr2 {
-    border-style: solid;
-    border-width: .75px;
-    color: #d9d9d9;
-    display: block;
-    margin-left: 0%;
-    margin-right: 1%;
+  border-style: solid;
+  border-width: .75px;
+  color: #d9d9d9;
+  display: block;
+  margin-left: 0%;
+  margin-right: 1%;
 
-}
-
-h1 {
-  font-size: 1em;
-  font-weight: bold;
-  line-height: 2em;
-  margin-left: 7%;
 }
 
 h2 {
@@ -114,11 +96,9 @@ h3 {
 
 h4 {
   font-size: 1em;
-  font-weight: 900;
+  font-weight: bolder;
+  line-height: 2em;
   margin-left: 7%;
-  margin-bottom: 4%;
-  margin-top: 4%;
-
 }
 
 h5 {
@@ -133,5 +113,4 @@ h6 {
   margin-top: 1%;
   margin-left: 21%;
   margin-bottom: 5%;
-}
 }
