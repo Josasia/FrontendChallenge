@@ -79,35 +79,21 @@ hr.hr2 {
 
 }
 
-h2 {
-  font-size: .80em;
-  font-weight: 800;
-  margin-left: 7%;
-}
-
-h3 {
-  font-size: .9em;
-  line-height: 1.25em;
-  margin-left: 7%;
-}
-
-h4 {
+h1 {
   font-size: 1em;
   font-weight: bolder;
   line-height: 2em;
   margin-left: 7%;
 }
 
-h5 {
-  font-size: .80em;
-  line-height: 1.75em;
-  margin-left: 7%;
+.busses  {
+  font-size: 1.2em;
+  font-weight: bolder;
+  margin-bottom: 5px;
 }
 
-h6 {
-  font-size: .80em;
-  font-weight: bold;
-  margin-top: 1%;
-  margin-left: 21%;
-  margin-bottom: 5%;
+.arrivals {
+  list-style: decimal;
+  list-style-position: outside;
+  font-size: 1.2rem;
 }
