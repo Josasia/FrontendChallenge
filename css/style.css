@@ -65,7 +65,6 @@ hr {
   border-width: .75px;
   color: #d9d9d9;
   display: block;
-  margin-left: 5%;
   margin-right: 1%;
 }
 
@@ -81,19 +80,35 @@ hr.hr2 {
 
 h1 {
   font-size: 1em;
+  font-weight: 900;
+  line-height: 1em;
+  margin-left: 18%;
+}
+
+
+h2 {
+  font-size: .85em;
   font-weight: bolder;
   line-height: 2em;
-  margin-left: 7%;
+  margin-left: 21%;
+  margin-bottom: 15px;
 }
 
-.busses  {
-  font-size: 1.2em;
-  font-weight: bolder;
-  margin-bottom: 5px;
+
+ul {
+  font-size: 1.15em;
+  font-weight: bold;
+  margin-left: 5%;
+  margin-top: 15px;
 }
 
-.arrivals {
-  list-style: decimal;
-  list-style-position: outside;
-  font-size: 1.2rem;
+li  {
+  font-size: .85em;
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.reroutes {
+  font-size: .75em;
 }
