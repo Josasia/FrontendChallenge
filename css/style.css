@@ -17,7 +17,7 @@ nav {
 
 .container {
   background-color: #fff;
-  height: 667px;
+  height: auto;
   width: 375px;
 }
 
@@ -78,37 +78,47 @@ hr.hr2 {
 
 }
 
-h1 {
-  font-size: 1em;
-  font-weight: 900;
-  line-height: 1em;
-  margin-left: 18%;
-}
-
-
-h2 {
-  font-size: .85em;
-  font-weight: bolder;
-  line-height: 2em;
-  margin-left: 21%;
-  margin-bottom: 15px;
-}
-
-
 ul {
   font-size: 1.15em;
   font-weight: bold;
   margin-left: 5%;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 li  {
   font-size: .85em;
   font-weight: lighter;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
 }
 
-.reroutes {
+/* showing arrivals vvv */
+li.li2 {
+  border-top: .75px solid #d9d9d9;
+  border-bottom: .75px solid #d9d9d9;
+  border-collapse: separate;
+  border-spacing: 10px 50px;
+  font-size: .85em;
+  font-weight: 900;
+  line-height: 1em;
+  margin-left: 14%;
+}
+
+
+li.li3 {
   font-size: .75em;
+  font-weight: bolder;
+  line-height: 2em;
+  margin-left: 17%;
+  margin-top: -7px;
+  margin-bottom: 15px;
+}
+
+li.busline {
+  border-top: .75px solid #d9d9d9;
+}
+
+li.arrivals {
+  border-bottom: .75px solid #d9d9d9;
+  border-spacing: 20px 20px;
 }
