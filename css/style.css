@@ -60,22 +60,14 @@ nav {
   width: 375px;
 }
 
-hr {
-  border-style: solid;
-  border-width: .75px;
-  color: #d9d9d9;
-  display: block;
-  margin-right: 1%;
+h1 {
+  font-size: .8em;
+  margin-left: 15%
 }
 
-hr.hr2 {
-  border-style: solid;
-  border-width: .75px;
-  color: #d9d9d9;
-  display: block;
-  margin-left: 0%;
-  margin-right: 1%;
-
+h2 {
+  font-size: 1em;
+  font-weight: 900;
 }
 
 ul {
@@ -92,33 +84,12 @@ li  {
   margin-bottom: 15px;
 }
 
-/* showing arrivals vvv */
-li.li2 {
-  border-top: .75px solid #d9d9d9;
-  border-bottom: .75px solid #d9d9d9;
-  border-collapse: separate;
-  border-spacing: 10px 50px;
-  font-size: .85em;
-  font-weight: 900;
-  line-height: 1em;
-  margin-left: 14%;
-}
-
-
-li.li3 {
+li.buttons {
   font-size: .75em;
   font-weight: bolder;
   line-height: 2em;
   margin-left: 17%;
   margin-top: -7px;
   margin-bottom: 15px;
-}
 
-li.busline {
-  border-top: .75px solid #d9d9d9;
-}
-
-li.arrivals {
-  border-bottom: .75px solid #d9d9d9;
-  border-spacing: 20px 20px;
 }
