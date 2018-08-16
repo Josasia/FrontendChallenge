@@ -61,8 +61,11 @@ nav {
 }
 
 h1 {
-  font-size: .8em;
-  margin-left: 15%
+  font-size: 1em;
+  font-weight: bolder;
+  margin-left: 15%;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 h2 {
@@ -70,26 +73,31 @@ h2 {
   font-weight: 900;
 }
 
-ul {
+.busses {
+  border-top: 1px solid #d9d9d9;
   font-size: 1.15em;
   font-weight: bold;
   margin-left: 5%;
-  margin-top: 8px;
+  margin-top: 15px;
 }
 
 li  {
-  font-size: .85em;
+  font-size: .95em;
   font-weight: lighter;
   margin-top: 8px;
   margin-bottom: 15px;
+}
+
+li.border1 {
+  /* border-top: 2px solid red; */
+  border-bottom: 1px solid #d9d9d9;
 }
 
 li.buttons {
   font-size: .75em;
   font-weight: bolder;
   line-height: 2em;
-  margin-left: 17%;
-  margin-top: -7px;
+  margin-left: 22%;
+  margin-top: -2px;
   margin-bottom: 15px;
-
 }
