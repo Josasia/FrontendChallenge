@@ -63,9 +63,9 @@ nav {
 h1 {
   font-size: 1em;
   font-weight: bolder;
+  padding: 10px;
   margin-left: 15%;
   border-top: 1px solid #d9d9d9;
-  border-bottom: 1px solid #d9d9d9;
 }
 
 h2 {
@@ -75,21 +75,19 @@ h2 {
 
 .busses {
   border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
   font-size: 1.15em;
   font-weight: bold;
   margin-left: 5%;
-  margin-top: 15px;
 }
 
 li  {
   font-size: .95em;
   font-weight: lighter;
-  margin-top: 8px;
-  margin-bottom: 15px;
+  padding: 8px 0;
 }
 
 li.border1 {
-  /* border-top: 2px solid red; */
   border-bottom: 1px solid #d9d9d9;
 }
 
