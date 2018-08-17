@@ -61,11 +61,13 @@ nav {
 }
 
 h1 {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
   font-size: 1em;
   font-weight: bolder;
   padding: 10px;
-  margin-left: 15%;
-  border-top: 1px solid #d9d9d9;
+  margin-bottom: 10px;
+  text-indent: 12px;
 }
 
 h2 {
@@ -74,22 +76,22 @@ h2 {
 }
 
 .busses {
-  border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
   font-size: 1.15em;
   font-weight: bold;
-  margin-left: 5%;
+  margin-left: 6%;
 }
 
 li  {
   font-size: .95em;
   font-weight: lighter;
-  padding-bottom: 8px;
+  padding-bottom: 5px;
   padding-top: 8px;
 }
 
 li.border1 {
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px double #d9d9d9;
+  margin-bottom: 8px;
 }
 
 li.buttons {
@@ -97,11 +99,11 @@ li.buttons {
   font-weight: bolder;
   line-height: 2em;
   margin-left: 22%;
-  margin-top: -2px;
+  margin-top: -9px;
   margin-bottom: 5px;
 }
 
 li.reroutes {
   font-size: .85em;
-  margin-top: -10px;
+  margin-top: -5px;
 }
