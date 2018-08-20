@@ -1,57 +1,57 @@
 *, *:before, *:after {
-    box-sizing: border-box;
-  }
+box-sizing: border-box;
+}
 
 body {
-  background-color: #888;
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px
+background-color: #888;
+font-family: 'Oswald', sans-serif;
+font-size: 16px
 }
 
 nav {
-  background-image: url("../Images/TopNav.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 375px;
+background-image: url("../Images/TopNav.png");
+background-repeat: no-repeat;
+background-size: contain;
+width: 375px;
 }
 
 .container {
-  background-color: #fff;
-  height: auto;
-  width: 375px;
+background-color: #fff;
+height: auto;
+width: 375px;
 }
 
 .topNav{
-  background-color: #FF2D55;
-  display: inline-block;
-  width: 375px;
-  height: 37px;
-  padding-top: 6px;
-  padding-left: 5%;
-  margin-top: 5%;
+background-color: #FF2D55;
+display: inline-block;
+width: 375px;
+height: 37px;
+padding-top: 6px;
+padding-left: 5%;
+margin-top: 5%;
 }
 
 .fa-location-arrow {
-	content: "\f124";
-	font-size: 20px;
-	border-radius: 50%;
-	border: 15px solid #ff2d55;
-  background-color: #ff2d55;
-	color: #fff;
-  display: inline-block;
-  margin-top: 30px;
-  margin-left: 18%;
+content: "\f124";
+font-size: 20px;
+border-radius: 50%;
+border: 15px solid #ff2d55;
+background-color: #ff2d55;
+color: #fff;
+display: inline-block;
+margin-top: 30px;
+margin-left: 18%;
 }
 
 .fa-list {
-  content: "\f03a";
-  font-size: 20px;
-	border-radius: 50%;
-	border: 15px solid #ff2d55;
-  background-color: #ff2d55;
-  color: #fff;
-  display: inline-block;
-  margin-left: 30%;
+content: "\f03a";
+font-size: 20px;
+border-radius: 50%;
+border: 15px solid #ff2d55;
+background-color: #ff2d55;
+color: #fff;
+display: inline-block;
+margin-left: 30%;
 }}
 
 .content {
